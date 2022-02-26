@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/netanelamar/Documents/Netanel/MyApps/MatrixHomeAssignment/app"
+    name=":app"
+    type="APP"
+    maven="MatrixHomeAssignment:app:"
+    gradle="7.1.1"
+    buildFolder="build"
+    bootClassPath="/Users/netanelamar/Library/Android/sdk/platforms/android-32/android.jar:/Users/netanelamar/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-32"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/netanelamar/Documents/Netanel/MyApps/MatrixHomeAssignment/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/fragment_item.xml",
+        "source": "/Users/netanelamar/Documents/Netanel/MyApps/MatrixHomeAssignment/app/src/main/res/layout/fragment_item.xml"
+    },
+    {
+        "merged": "/Users/netanelamar/Documents/Netanel/MyApps/MatrixHomeAssignment/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/fragment_main.xml",
+        "source": "/Users/netanelamar/Documents/Netanel/MyApps/MatrixHomeAssignment/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/Users/netanelamar/Documents/Netanel/MyApps/MatrixHomeAssignment/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/fruit_single_cell.xml",
+        "source": "/Users/netanelamar/Documents/Netanel/MyApps/MatrixHomeAssignment/app/src/main/res/layout/fruit_single_cell.xml"
+    },
+    {
+        "merged": "/Users/netanelamar/Documents/Netanel/MyApps/MatrixHomeAssignment/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/netanelamar/Documents/Netanel/MyApps/MatrixHomeAssignment/app/src/main/res/layout/activity_main.xml"
+    }
+]
