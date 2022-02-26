@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MatrixHomeAssignment</string>
+    <string name="fruit_image_content_desc">Fruit image</string>
+    <string name="data_retrieved">Showing data from local db</string>
+</resources>

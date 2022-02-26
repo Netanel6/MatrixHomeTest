@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_mobile_navigation"
+    app:startDestination="@+id/mainFragment">
+
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.matrixhomeassignment.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/from_main_to_item"
+            app:destination="@id/itemFragment"
+            app:enterAnim="@animator/slide_out_animation"
+            app:exitAnim="@animator/slide_in_animation" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemFragment"
+        android:name="com.example.matrixhomeassignment.ui.ItemFragment"
+        android:label="fragment_item"
+        tools:layout="@layout/fragment_item" >
+
+        <action
+            android:id="@+id/from_item_to_main"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@animator/slide_out_animation"
+            app:exitAnim="@animator/slide_in_animation" />
+    </fragment>
+</navigation>
