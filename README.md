@@ -1,7 +1,5 @@
 # MatrixHomeAssignment
 
-keystore.properties
-storePassword=123456
-keyPassword=123456
-keyAlias=matrix_keystore
-storeFile=matrix.android
+
+This repository includes 
+keystore.properties file in the root path you can generate apk as release or debug mode.
