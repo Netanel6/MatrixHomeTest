@@ -12,7 +12,7 @@ import com.example.matrixhomeassignment.local_db.FruitEntity
 import com.squareup.picasso.Picasso
 import de.hdodenhof.circleimageview.CircleImageView
 
-class ItemFragment : BaseFragment() {
+class ItemFragment : BaseFragment(), View.OnClickListener {
     private val TAG = this::class.simpleName.toString()
     private lateinit var _binding: FragmentItemBinding
     private lateinit var backBtn: CircleImageView
@@ -46,11 +46,17 @@ class ItemFragment : BaseFragment() {
 
     override fun initViews() {
         backBtn = _binding.backBtn
-        backBtn.setOnClickListener {
-            mainActivity.addFragment(R.id.from_item_to_main)
-        }
     }
 
     override fun initClicks() {
+        backBtn.setOnClickListener(this)
+    }
+
+    override fun onClick(p0: View?) {
+        when (p0!!.id) {
+            R.id.back_btn -> {
+                mainActivity.addFragment(R.id.from_item_to_main)
+            }
+        }
     }
 }
